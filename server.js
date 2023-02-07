@@ -64,7 +64,7 @@ const startServer = () => {
       console.error(err);
       process.exit(1);
     }
-    console.log(`Your app is listening on ${address}`);
+    console.log(`Your app is listening on port ${process.env.PORT}`);
   }
 );
 }
